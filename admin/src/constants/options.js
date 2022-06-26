@@ -10,7 +10,7 @@ const BASE_OPTIONS = [
     name: "relations",
     type: "select",
     label: "Select how relation will be exported.",
-    optionalValues: ["none", "ids"], //, "full"
+    optionalValues: ["none", "ids", "full"],
     defaultValue: "ids",
   },
   {
