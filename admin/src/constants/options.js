@@ -4,14 +4,14 @@ const BASE_OPTIONS = [
     type: "select",
     label: "Select how medias will be exported.",
     optionalValues: ["none", "ids", "url", "without-formats", "full"],
-    defaultValue: "full",
+    defaultValue: "url",
   },
   {
     name: "relations",
     type: "select",
     label: "Select how relation will be exported.",
     optionalValues: ["none", "ids", "full"],
-    defaultValue: "full",
+    defaultValue: "ids",
   },
   {
     name: "ids",
