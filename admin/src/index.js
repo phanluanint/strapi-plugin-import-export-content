@@ -38,11 +38,10 @@ export default (strapi) => {
           },
           name,
           permissions: [
-            // Uncomment to set the permissions of the plugin here
-            // {
-            //   action: '', // the action name should be plugins::plugin-name.actionType
-            //   subject: null,
-            // },
+            {
+              action: 'plugins::import-export-content.read',
+              subject: null,
+            },
           ],
         },
       ],
